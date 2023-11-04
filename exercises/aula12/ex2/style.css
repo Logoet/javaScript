@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    text-align: center;
+}
+
+main h1{
+    color: white;
+}
+
+div{
+    background-color: white;
+}
+
+body{
+    background-color: rgba(100, 131, 231, 0.658);
+}
+
+footer{
+    text-align: center;
+    color: white;
+}

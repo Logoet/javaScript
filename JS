@@ -1,0 +1,98 @@
+***JavaScript***
+#JavaScirpt - 
+*Curso Em Video(CEV) - Playlist do YT.
+*Dessenvolvimento WEB(WEB) - Aula Faculdade Rosiney.
+*W3schools - Site contendo toda a documentação HTML/CSS.
+*Livros - 
+//////////////////////////////////////////////////////////////////////
+Aula 0 - (14/09/23)
+///Aprender lógica de programação utilizada em sites/internet. Também utilizar do JS, juntamente de HTML/CSS para criar sites prontos.
+///Conciliar a playlist do YT com o curso WEB da facul.
+//////////////////////////////////////////////////////////////////////
+CEV - Aula 1 - (14/09/23)
+#Módulo A,B
+#Introdução ao JavaScript
+#História do JS
+#O que é o JS
+#Primeiros passos em JS
+#Interagindo com botões e inserção de dados
+*<script> - Tag que delimita onde estará o código JS num arquivo HTML.
+*Comandos window - O Window é um objeto que refere à janela atual do navegador.
+	*window.alert() - Janela de alerta.
+	*window.confirm() - Janela com botões de confirmação.
+	*window.prompt() - Janela com uma caixa de texto.
+///Usar o inspecionar do navegador caso haja algum erro no código.
+*Number() - Função do JS que transforma uma variavel qualquer numa variavel do tipo numérica.
+*Var/Let/Const - São maneiras de declarar uma variavel.
+*X.innerHTML = "" - insere um comando HTML, podendo conter texto, na variavel X. += faz com acople o conteúdo.
+
+//////////////////////////////////////////////////////////////////////
+CEV - Aula 2 -(02/10/23)
+#Módulo C
+#DOM
+*DOM(Document Object Model) - Um conjunto de objetos dentro do navegador que dará acesso aos componentes internos do HTML/CSS.
+*Árvore DOM - Arvore hierarquica de uma estrutura HTML(exemplo de árvore hierarquica abaixo).
+	*window - Childs(location, document, history).
+	*document - Childs(html).
+	*html - Childs(head, body).
+	*head - Childs(meta, title, link).
+	*body - Childs(h1, p, div, article).
+	*h1,p - Childs(Strong, span).
+*Seletores DOM - Os elementos podem ser selecionados por: Marca, ID, Nome, Classe e Seletor.
+	*Marca - Seleciona elementos pela sua tag HTML; getElemntsByTagName().
+	*ID - Seleciona elementos pelo seu ID; getElementById().
+	*Nome - Seleciona elementos pelo seu nome; getElemntsByName().
+	*Classe - Seleciona elementos pela sua classe; getElementByClassName().
+	*Seletor -  utiliza o querySelector para acessar as tags; querySelector(), querySelectorALL().
+*Eventos DOM - São eventos/métodos que engatilham ao ocorrer alguma ação no HTML da página; Como ao clicar, ao pressionar, ao digitar.
+	*Eventos de mouse - São eventos que engatilham quando o cursor interage com a página; mouseenter, mousemove, mousedown, mouseup, click, mouseout.
+	*Touch events - Eventos para toque touch, de celulares/tablets.
+*Funções - São blocos de códigos reutilizáveis. São muito utilizados junto a eventos DOM para específicar o que fazer após a chamada do evento; onclick="função()". Onde o evento de clicar chama o bloco de códigos da "função".
+*EventListener - É um ouvinte que "grita" algo e então chama uma função. Basicamente é uma conexão entre o elemento HTML, juntamente do evento DOM + função; var.addEventListener('click', função)
+///o parametro .value é usado para acessar o valor de um elemento html.
+
+//////////////////////////////////////////////////////////////////////
+CEV - Aula 3 - (24/09/23)
+#Módulo D
+#Condições (parte 1)
+#Condição simples e composta
+#Fazendo contas
+*Condição simples - Comando IF que, ao verificar uma condição e ela ser verdadeira, irá executar um bloco de código; IF(a>b){código}.
+*Comandos console - São comandos que interagem com o terminal e não com a página.
+	*log('') - Printa algo no terminal.
+*math. - Biblioteca de matemática.
+	*math.abs - Função que retorna o módulo do número.
+	*math.ceil - Função que arredonda pra cima.
+	*math.floor - Função que arredonda para baixo.
+	*math.round - Função que faz o arredondamento aritmético.
+	*math.trunc - Função que elimina a parte fracionária.
+	*math.min/max - Funções que indicam qual foi o menor/maior valor informado.
+	*math.random - Função que gera um número aleatório entre 0 e 1
+//////////////////////////////////////////////////////////////////////
+CEV - Aula 4 - (12/10/23)
+#Condições (parte 2)
+#Condições aninhadas
+#Condições Multiplas
+*Condições aninhadas - São condições que que sucedem novas condições, basicamente uma condição dentro de outra; 
+if (x<y){}  else if(x<z){} else if (x<k) {}...
+*Condição Múltipla - É uma condição onde se é criado vários cenários de comparação e um cenário padrão caso nenhuma condição seja atendida; switch(expressão){
+	case valor1:
+		código
+		break
+	case valor2:
+		código
+		break
+	case valor3:
+		código
+		break
+	default:
+		break
+	}
+	|| Onde cada case irá verificar se a 'expressão' é igual a 'valor' e default é o cenário padrão caso nenhum case seja atendido.
+*onload="" - Atributo JS que faz alguma ação quando o elemento HTML é carregado.
+*document.createElement('') - Comando JS que cria um elemento HTML.
+	*setAttribute('atributo','nome') - Gera um atributo no elemento selecionado.
+*appendChild() - Comando JS que adiciona um elemento numa tag HTML.
+///Para pegar a hora/data atual do sistema é só criar uma variavel e atribuí-la a classe Date(); var data = new Date() || Date().getHours
+//////////////////////////////////////////////////////////////////////
+CEV - Módulo E - 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+            background-color: lightsalmon;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculando o Troco</h1>
+    <button onclick="Clicar()">Comprar Produto</button>
+    <script>
+        function Clicar(){
+            var nome_produto = window.prompt("Que produto você está comprando ?")
+            var preço_produto = window.prompt(`Quanto custa ${nome_produto} que você está comprando ?`)
+            var dinheiro = window.prompt(`qual foi o valor que você deu para pagar o ${nome_produto}?`)
+            window.alert(`Você comprou ${nome_produto} que custou R$ ${preço_produto}.
+            Deu R$ ${dinheiro} em dinheiro e vai receber R$ ${Number(dinheiro)-Number(preço_produto)} de troco.
+            Volte Sempre!
+            `)
+        }
+    </script>
+</body>
+</html>
